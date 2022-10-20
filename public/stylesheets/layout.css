@@ -1,5 +1,78 @@
 .layout {
-    margin: 0 auto;
-    margin-left: 15%;
-    margin-right: 15%;
+    margin: auto;
+    max-width: 1048px;
 }
+.icon {
+    height: 24px;
+    width: 24px;
+}
+
+.logo {
+    width: 50px;
+}
+
+body, html {
+    height: 100%;
+    font-family: 'selfFont', 'Open Sans', sans-serif;
+    font-size: 14px;
+    line-height: 1.8;
+}
+
+.header-top a {
+    color: #37cadd;
+}
+
+.navigation-link a:hover {
+    border-bottom: solid 2px #37cadd;
+}
+
+.hero-image {
+    /* Use "linear-gradient" to add a darken background effect to the image (photographer.jpg). This will make the text easier to read */
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("/images/hero1_instalaciones.jpg");
+  
+    /* Set a specific height */
+    height: 50%;
+  
+    /* Position and center the image to scale nicely on all screens */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+  }
+
+.hero-text {
+    text-align: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+  }
+
+.header-top {
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+    background-color: #003366;
+    color: #37cadd;
+    text-decoration: none;
+}
+
+.navigation li {
+    color: #555;
+    line-height: 50px;
+}
+
+.navigation a {
+    color: #3d3d3d;
+}
+
+.footer {
+    background-color: #153b96;
+    color: #ffffff;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+.footer-list p {
+    border-bottom: solid 1px rgba(255,255,255,.1);
+}
+
