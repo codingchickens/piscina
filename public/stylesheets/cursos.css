@@ -37,15 +37,18 @@
     height: 100%;
     -webkit-backface-visibility: hidden; /* Safari */
     backface-visibility: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
   }
 
   .flip-card-front {
-    background-color: #bbb;
-    color: black;
+    background-color: #0066bf;
+    color: white;
   }
   
   .flip-card-back {
-    background-color: dodgerblue;
+    background-color: #0066bf;
     color: white;
     transform: rotateY(180deg);
   }

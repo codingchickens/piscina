@@ -2,37 +2,41 @@
   <div class="flex">
     <div class="cursos1 mr-3">
       <div><img src="/images/cursos1.jpg", alt="Cursos Piscina"></div>
-      <div><h2>Papá… No espere el verano para enseñar a nadar a sus hijos</h2></div>
-      <div><h2>Evite aglomeraciones y listas de espera …traiga a sus niños ahora para que aprendan a nadar</h2></div>
-      <div><h2>Prepárese para el próximo verano, tenga a sus hijos nadando</h2></div>
-      <div><h1>Cursos de Natación</h1></div>
+      <div><p>¡Papás y mamás! No esperen al verano para enseñar a nadar a sus hijos <br>Evite aglomeraciones y listas de espera, traiga a sus niños ahora para que aprendan a nadar <br>
+      Prepárese para el próximo verano, tenga a sus hijos nadando</p></div>
+      <div class="my-6"><h1>Cursos de Natación</h1></div>
       <div class="flex justify-between">
-        <div class="flex-1 mr-3"><img src="/images/cursos2.jpg", alt="Cursos Piscina"></div>
-        <div class="flex-1 ml-3"><img src="/images/cursos3.jpg", alt="Cursos Piscina"></div>
+        <div class="flex-1 mr-6"><img src="/images/cursos2.jpg", alt="Cursos Piscina"></div>
+        <div class="flex-1 ml-6"><img src="/images/cursos3.jpg", alt="Cursos Piscina"></div>
       </div>
-      <div><p>CURSOS BASICOS AVANZADOS LIBRE</p></div>
-      <div class="flex justify-between">
-        <div class="flex-1 mr-3"><img src="/images/cursos1.jpg", alt="Cursos Piscina"></div>
-        <div class="flex-1 mx-2"><img src="/images/cursos2.jpg", alt="Cursos Piscina"></div>
-        <div class="flex-1 mr-3"><img src="/images/cursos3.jpg", alt="Cursos Piscina"></div>
-      </div>
+      <div class="flex justify-center m-6"><div><%= erb :cursos_tabpanel %></div></div>        
       <hr>
-      <div><h1>Cursos de natación para niños</h1></div>
+      
+      <div class="my-6"><h1>Cursos de natación para niños</h1></div>
 
       <div class="flex justify-between">
-      <div class="flip-card">
-      <div class="flip-card-inner">
-        <div class="flip-card-front">
-            <p>Curso básico y avanzado</p>
+        <div class="flip-card">
+          <div class="flip-card-inner">
+            <div class="flip-card-front">
+              <p>Curso básico y avanzado</p>
+            </div>
+            <div class="flip-card-back">
+              <div class="m-1"><p>Las clases son personalizadas con un máximo de 8 niños por profesor. Los chicos estan dentro de la piscina vivenciando el medio acuático durante toda la clase. Avanzan de etapas por sus propios avances o logros, no por los del grupo; en una misma clase pueden avanzar de nivel.</p></div>
+            </div>
+          </div>
         </div>
-        <div class="flip-card-back">
-          <div class="m-1"><p>Las clases son personalizadas con un máximo de 8 niños por profesor. Los chicos estan dentro de la piscina vivenciando el medio acuático el ciento por ciento de la clase.
-          Avanzan de etapas por sus propios avances o logros, no por los del grupo. Por lo tanto en una misma clase pueden avanzar de nivel.</p></div>
+        <div class="m-6"><img src="/images/logo_centro_natacion.png", alt="Logo"></div>
+        <div class="flip-card">
+          <div class="flip-card-inner">
+            <div class="flip-card-front">
+              <p>Clases particulares</p>
+            </div>
+            <div class="flip-card-back">
+              <div class="m-1"><p>Se considera como clases particulares a grupos reducidos de personas por profesor.<br> Los grupos pueden ser conformados por un máximo de hasta tres personas, y pueden integrarlos niños, jóvenes y adultos, o combinados (ej. padres con hijos).<br>
+              Mínimo de cuatro (4) clases por grupo.</p></div>
+            </div>
+          </div>
         </div>
-      </div>
-    </div>
-        <div><img src="/images/logo_centro_natacion.png", alt="Logo"></div>
-        <div>Clases particulares</div>
       </div>
     </div>
 
