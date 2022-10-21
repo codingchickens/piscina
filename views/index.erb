@@ -88,28 +88,30 @@
   <div>
     <div><h1>Servicios</h1></div>
     <div class="flex">
-      <div>
+      <div class="flex-1 mr-12">
         <div><img src="/images/index1_cursos.jpg", alt="Cursos"></div>
         <h2>Cursos de Natación</h2>
         <p>Clases personalizadas, cada alumno trabaja en su correspondiente nivel.</p>
       </div>
-      <div>
+      <div class="flex-1 mx-10">
         <div><img src="/images/index2_hidrogimnasia.jpg", alt="Hidrogimnasia"></div>
         <h2>Hidrogimnasia</h2>
         <p>Hidrogimnasia es una técnica de gimnasia considerada aeróbica por el elevado consumo de oxígeno que precisa.</p>
       </div>
-      <div>
+      <div class="flex-1 ml-12">
         <div><img src="/images/index3_masajes.jpg", alt="Masajes Ceragem"></div>
         <h2>Masajes Ceragem</h2>
         <p>Camillas termo-masajeadoras</p>
       </div>
     </div>
   </div>
+</div>
 
-  <div>
+  <div class="nosotros">
+  <div class="layout">
     <div><h1>Nosotros</h1></div>
     <div class="flex">
-      <div>
+      <div class="mr-12">
         <h2>Centro de Natación</h2>
         <p>El Centro de Natación Patricia Thompson imparte clases de natación tanto básico como avanzado a niños y adultos por más de 25 años. Cuenta con una piscina temperada especialmente diseñada por profesionales del ramo, para la enseñanza y práctica de la natación, rehabilitación en agua, hidrogimnasia y actividades acuáticas recreativas. La piscina cuenta con una amplia rampa interior con pendiente suave que parte con una profundidad de 0.30 mts. hasta llegar a una profundidad de 1.25 mts. dando así plena seguridad al adulto o niño que tenga temor al agua. El Centro de Natación Patricia Thompson está equipado con cómodos e higiénicos camarines en un ambiente calefaccionado.</p>
       </div>
@@ -125,15 +127,21 @@
       </div>
     </div>
   </div>
+</div>
 
-  <div>
-    <div><h1>Contacto</h1></div>
-    <p>Si desea ponerse en contacto con nosotros sólo envíenos un mail
-    O llámenos al 22 20-44-096 para reservar una hora con nosotros.</p>
-    <p>FORMULARIO</p>
+<div class="contacto">
+  <div class="layout">
+    <div class="flex flex-col content-center">
+      <div><h1>Contacto</h1></div>
+      <div class="content-center"><p>Si desea ponerse en contacto con nosotros sólo envíenos un mail <br>
+      O llámenos al 22 20-44-096 para reservar una hora con nosotros.</p></div>
+      <div><%= erb :contacto_form %></div>
+    </div>
   </div>
+</div>
 
+<div class="layout">
   <div>
-    <p>MAPA INCRUSTADO</p>
+  <p>MAPA INCRUSTADO</p>
   </div>
 </div>

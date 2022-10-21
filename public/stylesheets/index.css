@@ -1,0 +1,25 @@
+.nosotros {
+    padding: 50px 0;
+    background-image: url('/images/fondo_contacto.gif');
+    color: white;
+}
+
+.nosotros h1 {
+    font-size: 36px;
+    text-align: center;
+}
+
+.nosotros h2 {
+    font-size: 24px;
+}
+
+.contacto {
+    padding: 50px 0;
+    background-image: url('/images/index-natacion_contacto-1.gif');
+    color: grey;
+}
+
+.contacto h1 {
+    font-size: 36px;
+    text-align: center;
+}

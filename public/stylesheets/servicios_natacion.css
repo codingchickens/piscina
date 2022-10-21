@@ -1,0 +1,16 @@
+hr {
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+}
+
+.natacion1 {
+    flex: 2.5;
+}
+
+.natacion2 {
+    flex: 1;
+}
+
+img {
+    width: 100%;
+}
