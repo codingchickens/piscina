@@ -2,21 +2,8 @@
     align-self: auto;
 }
 
-.flex-precios1 {
-    flex: 3.5;
-  }
-
-  .flex-precios2 {
-    flex: 1;
-  }
-
-  .precios h1 {
-    font-size: 24px;
-    text-align: center;
-    margin-top: 3rem;
-  }
-      
-  .precios h2 {
-    font-size: 18px;
+@media (max-width:768px) {
+  .precios-container {
     margin-top: 2rem;
   }
+}

@@ -1,19 +1,19 @@
-<div class="layout mt-3">
-  <div class="flex">
-    <div class="cursos1 mr-3">
+<div class="layout text-center">
+  <div>
+    <div class="mt-12">
       <div><img class="rounded-xl" src="/images/cursos1.jpg", alt="Cursos Piscina"></div>
-      <div class="text-2xl text-center mt-3"><p>¡Papás y mamás! No esperen al verano para enseñar a nadar a sus hijos. Evite aglomeraciones y listas de espera y traigalos ahora, para que sus hijos ya estén nadando este verano</p></div>
-      <div class="mt-20 mb-12"><h1>Cursos de natación</h1></div>
-      <div class="flex items-stretch">
-        <div class="flex flex-1 items-stretch mr-6"><img  class="rounded-xl" src="/images/cursos2.jpg", alt="Cursos Piscina"></div>
-        <div class="flex flex-1 items-stretch ml-6"><img  class="rounded-xl" src="/images/cursos3.jpg", alt="Cursos Piscina"></div>
+      <div class="text-xl text-center mt-8"><p>¡Papás y mamás! No esperen al verano para enseñar a nadar a sus hijos. Evite aglomeraciones y listas de espera y traigalos ahora, para que sus hijos ya estén nadando este verano</p></div>
+      <div class="mt-12 mb-8"><h3 class="text-3xl">Cursos de natación</h2></div>
+      <div class="md:flex items-stretch md:space-x-4">
+        <div class="flex items-stretch mt-4"><img class="rounded-xl" src="/images/cursos2.jpg", alt="Cursos Piscina"></div>
+        <div class="flex items-stretch mt-4"><img class="rounded-xl" src="/images/cursos3.jpg", alt="Cursos Piscina"></div>
       </div>
-      <div class="h-32 flex-1 text-lg mt-6"><div><%= erb :cursos_tabpanel %></div></div>        
+      <div class="sm:h-36 md:h-32 text-lg mt-6"><div><%= erb :cursos_tabpanel %></div></div>        
       <hr>
       
-      <div class="mt-20 mb-12"><h1>Cursos de natación para niños</h1></div>
+      <div class="mt-12 mb-8"><h3 class="text-3xl">Cursos de natación para niños</h2></div>
 
-      <div class="flex justify-between">
+      <div class="md:flex justify-between items-center flip-container">
         <div class="flip-card">
           <div class="flip-card-inner">
             <div class="flip-card-front">
@@ -40,6 +40,6 @@
     </div>
   </div>
   <hr>
-  <%= erb :banner_vyh %>
-  <hr>
 </div>
+<%= erb :banner_vyh %>
+<hr class="layout">

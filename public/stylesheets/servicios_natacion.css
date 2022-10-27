@@ -3,14 +3,17 @@ hr {
     margin-bottom: 2rem;
 }
 
-.natacion1 {
-    flex: 2.5;
-}
-
-.natacion2 {
-    flex: 1;
+.natacion {
+    --tw-text-opacity: 1;
+    color: rgb(100 116 139 / var(--tw-text-opacity));
 }
 
 img {
     width: 100%;
+}
+
+@media (max-width:1024px) {
+    .natacion {
+        font-size: larger;
+    }
 }

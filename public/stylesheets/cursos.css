@@ -1,16 +1,3 @@
-.cursos1 {
-    flex: 3;
-}
-
-.cursos2 {
-    flex: 1;
-}
-
-.cursos1 h1 {
-    font-size: 36px;
-    text-align: center;
-}
-
 .flip-card {
     background-color: transparent;
     width: 300px;
@@ -55,4 +42,12 @@
 
   .cursos-tabpanel1 {
     width: 100%;
+  }
+
+  @media (max-width:767px) {
+    .flip-container {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    } 
   }
