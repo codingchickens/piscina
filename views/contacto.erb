@@ -1,21 +1,19 @@
-<div class="layout">
+<div class="layout mt-3 contacto">
   <div class="flex">
     <div class="flex-1">
-      <div><h2>ESCRÍBANOS</h2></div>
-      <%= erb :contacto_form %>
+      <div><h1>Escríbanos</h1></div>
+      <div class="mr-12"><%= erb :contacto_form %></div>
     </div>
-    <div class="flex-1">
-      <div><h2>CONTÁCTENOS</h2></div>
-      <ul>
-        <li>+56 2 22 04 4096</li>
-        <li>Av. Francisco Bilbao 1136 – Providencia</li>
-        <li>centrodenatacion@gmail.com</li>
-        <li>centrodenatacion.cl</li>
+    <div class="flex-1 mr-4">
+      <div><h1>Contáctenos</h1></div>
+      <ul class="list-disc underline text-xl font-bold list-inside leading-loose">
+        <li><a href="tel:+56222044096">+56 2 2204 4096</a></li>
+        <li><a href="https://goo.gl/maps/2Jsa1PYxwxwcWEAx5"</a>Av. Francisco Bilbao 1136, Providencia</li>
+        <li><a href="mailto:centrodenatacion@gmail.com">centrodenatacion@gmail.com</a></li>
+        <li><a href="www.centrodenatacion.cl">www.centrodenatacion.cl</a></li>
       </ul>
-      <p>MAPA INCRUSTADO</p>
-    </div>
-    <div class="flex-1">
-      <%= erb :sabiausted %>
+      <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3329.3793597281065!2d-70.61991778509194!3d-33.439421704331785!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9662cf7f6c014139%3A0x3fb5720a7612e58d!2sSwimming%20Center%20Patricia%20Thompson!5e0!3m2!1sen!2scl!4v1666623341176!5m2!1sen!2scl" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
     </div>
   </div>
+  <hr>
 </div>

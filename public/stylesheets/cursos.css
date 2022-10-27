@@ -52,3 +52,7 @@
     color: white;
     transform: rotateY(180deg);
   }
+
+  .cursos-tabpanel1 {
+    width: 100%;
+  }

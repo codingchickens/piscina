@@ -1,18 +1,17 @@
-<div class="layout">
+<div class="layout mt-3">
   <div class="flex">
     <div class="cursos1 mr-3">
-      <div><img src="/images/cursos1.jpg", alt="Cursos Piscina"></div>
-      <div><p>¡Papás y mamás! No esperen al verano para enseñar a nadar a sus hijos <br>Evite aglomeraciones y listas de espera, traiga a sus niños ahora para que aprendan a nadar <br>
-      Prepárese para el próximo verano, tenga a sus hijos nadando</p></div>
-      <div class="my-6"><h1>Cursos de Natación</h1></div>
-      <div class="flex justify-between">
-        <div class="flex-1 mr-6"><img src="/images/cursos2.jpg", alt="Cursos Piscina"></div>
-        <div class="flex-1 ml-6"><img src="/images/cursos3.jpg", alt="Cursos Piscina"></div>
+      <div><img class="rounded-xl" src="/images/cursos1.jpg", alt="Cursos Piscina"></div>
+      <div class="text-2xl text-center mt-3"><p>¡Papás y mamás! No esperen al verano para enseñar a nadar a sus hijos. Evite aglomeraciones y listas de espera y traigalos ahora, para que sus hijos ya estén nadando este verano</p></div>
+      <div class="mt-20 mb-12"><h1>Cursos de natación</h1></div>
+      <div class="flex items-stretch">
+        <div class="flex flex-1 items-stretch mr-6"><img  class="rounded-xl" src="/images/cursos2.jpg", alt="Cursos Piscina"></div>
+        <div class="flex flex-1 items-stretch ml-6"><img  class="rounded-xl" src="/images/cursos3.jpg", alt="Cursos Piscina"></div>
       </div>
-      <div class="flex justify-center m-6"><div><%= erb :cursos_tabpanel %></div></div>        
+      <div class="h-32 flex-1 text-lg mt-6"><div><%= erb :cursos_tabpanel %></div></div>        
       <hr>
       
-      <div class="my-6"><h1>Cursos de natación para niños</h1></div>
+      <div class="mt-20 mb-12"><h1>Cursos de natación para niños</h1></div>
 
       <div class="flex justify-between">
         <div class="flip-card">
@@ -39,11 +38,8 @@
         </div>
       </div>
     </div>
-
-    <div class="cursos2">
-      <%= erb :sabiausted %>
-    </div>
   </div>
   <hr>
   <%= erb :banner_vyh %>
+  <hr>
 </div>

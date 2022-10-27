@@ -1,0 +1,15 @@
+.contacto {
+    align-self: auto;
+}
+
+.contacto h1 {
+    font-size: 24px;
+    margin-top: 3rem;
+    margin-bottom: 2rem;
+  }
+      
+  .contacto h2 {
+    font-size: 18px;
+    text-align: center;
+    margin-top: 2rem;
+  }

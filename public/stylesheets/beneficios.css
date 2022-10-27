@@ -4,13 +4,11 @@
 
 .beneficios h1 {
     font-size: 24px;
-    text-align: center;
     margin-top: 3rem;
   }
       
   .beneficios h2 {
     font-size: 18px;
-    text-align: center;
     margin-top: 2rem;
   }
 
@@ -20,4 +18,12 @@
 
   .flex-beneficios2 {
     flex: 1;
+  }
+
+  .flex-beneficiosimg1 {
+    flex: 2;
+  }
+
+  .flex-beneficiosimg2 {
+    flex: 1.3;
   }
