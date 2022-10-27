@@ -1,0 +1,9 @@
+.precios {
+    align-self: auto;
+}
+
+@media (max-width:768px) {
+  .precios-container {
+    margin-top: 2rem;
+  }
+}

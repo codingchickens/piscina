@@ -1,0 +1,27 @@
+<form id="contacto" action="/check" method="post">
+  <label class= "block" for="fname">
+    <span class="block font-medium text-slate-700">Nombre</span>
+    <input class="block border text-sm w-full bg-gray-200" type="text" id="fname" name="fname">
+  </label><br>
+  <label class= "block" for="mail">
+    <span class="block font-medium text-slate-700">Correo</span>
+    <input class="peer block border text-sm w-full bg-gray-200" type="email" id="mail" name="mail">
+    <p class="mt-2 invisible peer-invalid:visible text-pink-600 text-sm">
+      Please provide a valid email address.
+    </p>
+  </label>
+  <label class= "block" for="topic">
+    <span class="block font-medium text-slate-700">Asunto</span>
+    <input class="block border text-sm w-full bg-gray-200" type="text" id="topic" name="topic">
+  </label><br>
+  <label class= "block" for="message">
+    <span class="block font-medium text-slate-700">Tu mensaje</span>
+    <textarea class="block border text-sm w-full bg-gray-200" name="message" rows="10"></textarea><br>
+  </label>
+  <div class="flex justify-between">
+  <button class="form-submit" type="submit">
+    <span class="p-1 block border font-medium text-slate-700 bg-white">Enviar</span>
+  </button>
+  <input class="p-1 border font-medium text-slate-700 bg-white" type="reset">
+  </div>
+</form>

@@ -2,41 +2,39 @@
   <nav>
     <div class="header-top"> 
       <div class="layout flex justify-between">
-        <div class="flex space-x-3">
-          <a href="/contacto">Cómo llegar</a>
-          <a href="#">+56 2 2204 4096	</a>
+        <div class="flex space-x-3 sm:text-base items-center">
+          <a href="https://www.google.com/maps/dir//Swimming+Center+Patricia+Thompson+-+Av.+Francisco+Bilbao+1136,+Providencia,+Regi%C3%B3n+Metropolitana/@-33.4394217,-70.6199178,17z/data=!4m8!4m7!1m0!1m5!1m1!1s0x9662cf7f6c014139:0x3fb5720a7612e58d!2m2!1d-70.6176143!2d-33.4394891">Cómo llegar</a>
+          <a href="tel:+56222044096">+56 2 2204 4096	</a>
         </div>
         <div class="flex space-x-2">
-          <div class="icon"><a href="#"><img src="/images/icons/Facebook.svg", alt="Facebook"></a></div>
-          <div class="icon"><a href="#"><img src="/images/icons/Instagram.svg", alt="Instagram"></a></div>
-          <div class="icon"><a href="#"><img src="/images/icons/Street-view.png", alt="Street View"></a></div>
-          <div class="icon"><a href="#"><img src="/images/icons/Map.svg", alt="Ubicación"></a></div>
-          <div class="icon"><a href="#"><img src="/images/icons/Email.png", alt="Email"></a></div>
+          <div class="icon"><a href="https://www.facebook.com/centronatacion.patriciathompson"><img src="/images/icons/facebook.svg", alt="Facebook"></a></div>
+          <div class="icon"><a href="https://www.instagram.com/centrodenatacion/"><img src="/images/icons/instagram.svg", alt="Instagram"></a></div>
+          <div class="icon"><a href="https://www.google.com/maps/place/Swimming+Center+Patricia+Thompson/@-33.4396627,-70.6177136,3a,75y,356.05h,83.25t/data=!3m6!1e1!3m4!1sEZdshPX2uZsLEDIGVu9LTA!2e0!7i16384!8i8192!4m5!3m4!1s0x9662cf7f6c014139:0x3fb5720a7612e58d!8m2!3d-33.4394891!4d-70.6176143"><img src="/images/icons/google-street-view.svg", alt="Street View"></a></div>
+          <div class="icon"><a href="https://goo.gl/maps/2Jsa1PYxwxwcWEAx5"><img src="/images/icons/maps.svg", alt="Ubicación"></a></div>
+          <div class="icon"><a href="mailto:centrodenatacion@gmail.com"><img class="icon-color" src="/images/icons/email-byw.svg", alt="Email"></a></div>
         </div>
       </div>
     </div>
     <div class="navigation py-2">
-      <div class="layout flex justify-between">
+      <div class="layout flex justify-between items-center">
         <div class="flex space-x-2">
-          <div class="logo"><img src="/images/logo_centro_natacion.png", alt="Logo"></div>
-          <div>
-            <h2 class="font-semibold text-3xl">Centro de Natación</h2>
-            <h3 class="text-xl">Patricia Thompson</h3>
+          <div class="logo"><a href="/"><img src="/images/logo_centro_natacion.png", alt="Logo"></a></div>
+          <div class="items-center">
+            <h2 class="font-semibold lg:text-3xl">Centro de Natación</h2>
+            <h3 class="lg:text-xl">Patricia Thompson</h3>
           </div>
         </div>
-        <div>
-          <ul class="flex space-x-5 font-bold">
-            <li class="navigation-link"><a href="/">INICIO</a></li>
+        <div class="hidden md:flex">
+          <ul class="space-x-2 lg:space-x-5 font-bold" style="display:inherit">
             <li class="navigation-link">
-            <div class ="inline-block relative">
-              <p>SERVICIOS</p>
-            <div class="navigation-dropdown absolute bg-white p-2">
-              <ul>
-                <li class="navigation-link"><a href="#">NATACIÓN</a></li>
-                <li class="navigation-link"><a href="#">HIDROGIMNASIA</a></li>
-                <li class="navigation-link"><a href="#">MASAJES</a></li>
-              </ul>
-            </div>
+              <div class ="inline-block relative">
+                <p>SERVICIOS</p>
+              <div class="navigation-dropdown absolute bg-white p-2">
+                <ul>
+                  <li class="navigation-link"><a href="/servicios_natacion">NATACIÓN</a></li>
+                  <li class="navigation-link"><a href="/servicios_hidrogimnasia">HIDROGIMNASIA</a></li>
+                </ul>
+              </div>
             </li>
             <li class="navigation-link"><a href="/beneficios">BENEFICIOS</a></li>
             <li class="navigation-link"><a href="/cursos">CURSOS</a></li>
@@ -45,6 +43,22 @@
             <li class="navigation-link"><a href="/contacto">CONTACTO</a></li>
           </ul>
         </div>
+        <a href="javascript:void(0);" class="md:hidden" onclick="myFunction()">
+          <label class="hamburger">☰</label>
+        </a>
+      </div>
+    </div>
+    <div class="layout" id="hamburgerLinks">
+      <div class="flex justify-end">
+        <ul class="font-bold block md:flex text-right space-y-2 mb-2">
+          <li class="navigation-link"><a href="/servicios_natacion">NATACIÓN</a></li>
+          <li class="navigation-link"><a href="/servicios_hidrogimnasia">HIDROGIMNASIA</a></li>
+          <li class="navigation-link"><a href="/beneficios">BENEFICIOS</a></li>
+          <li class="navigation-link"><a href="/cursos">CURSOS</a></li>
+          <li class="navigation-link"><a href="/horarios">HORARIOS</a></li>
+          <li class="navigation-link"><a href="/precios">PRECIOS</a></li>
+          <li class="navigation-link"><a href="/contacto">CONTACTO</a></li>
+        </ul>
       </div>
     </div>
   </nav>

@@ -1,0 +1,45 @@
+<div class="layout text-center">
+  <div>
+    <div class="mt-12">
+      <div><img class="rounded-xl" src="/images/cursos1.jpg", alt="Cursos Piscina"></div>
+      <div class="text-xl text-center mt-8"><p>¡Papás y mamás! No esperen al verano para enseñar a nadar a sus hijos. Evite aglomeraciones y listas de espera y traigalos ahora, para que sus hijos ya estén nadando este verano</p></div>
+      <div class="mt-12 mb-8"><h3 class="text-3xl">Cursos de natación</h2></div>
+      <div class="md:flex items-stretch md:space-x-4">
+        <div class="flex items-stretch mt-4"><img class="rounded-xl" src="/images/cursos2.jpg", alt="Cursos Piscina"></div>
+        <div class="flex items-stretch mt-4"><img class="rounded-xl" src="/images/cursos3.jpg", alt="Cursos Piscina"></div>
+      </div>
+      <div class="sm:h-36 md:h-32 text-lg mt-6"><div><%= erb :cursos_tabpanel %></div></div>        
+      <hr>
+      
+      <div class="mt-12 mb-8"><h3 class="text-3xl">Cursos de natación para niños</h2></div>
+
+      <div class="md:flex justify-between items-center flip-container">
+        <div class="flip-card">
+          <div class="flip-card-inner">
+            <div class="flip-card-front">
+              <p>Curso básico y avanzado</p>
+            </div>
+            <div class="flip-card-back">
+              <div class="m-1"><p>Las clases son personalizadas con un máximo de 8 niños por profesor. Los chicos estan dentro de la piscina vivenciando el medio acuático durante toda la clase. Avanzan de etapas por sus propios avances o logros, no por los del grupo; en una misma clase pueden avanzar de nivel.</p></div>
+            </div>
+          </div>
+        </div>
+        <div class="m-6"><img src="/images/logo_centro_natacion.png", alt="Logo"></div>
+        <div class="flip-card">
+          <div class="flip-card-inner">
+            <div class="flip-card-front">
+              <p>Clases particulares</p>
+            </div>
+            <div class="flip-card-back">
+              <div class="m-1"><p>Se considera como clases particulares a grupos reducidos de personas por profesor.<br> Los grupos pueden ser conformados por un máximo de hasta tres personas, y pueden integrarlos niños, jóvenes y adultos, o combinados (ej. padres con hijos).<br>
+              Mínimo de cuatro (4) clases por grupo.</p></div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <hr>
+</div>
+<%= erb :banner_vyh %>
+<hr class="layout">

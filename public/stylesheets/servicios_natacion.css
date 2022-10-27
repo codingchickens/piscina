@@ -1,0 +1,19 @@
+hr {
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+}
+
+.natacion {
+    --tw-text-opacity: 1;
+    color: rgb(100 116 139 / var(--tw-text-opacity));
+}
+
+img {
+    width: 100%;
+}
+
+@media (max-width:1024px) {
+    .natacion {
+        font-size: larger;
+    }
+}

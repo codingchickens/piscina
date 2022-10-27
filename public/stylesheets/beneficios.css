@@ -1,0 +1,41 @@
+.beneficios {
+    align-self: auto;
+}
+
+  .flex-beneficios1 {
+    flex: 2.5;
+  }
+
+  .flex-beneficios2 {
+    flex: 1;
+  }
+
+  @media (max-width:639px) {
+    .beneficios-container {
+      margin: 2rem 9rem;
+    }
+      .beneficios-container p {
+        padding-left: 0;
+        padding-right: 0;
+      }
+    }
+  @media (max-width:569px) {
+    .beneficios-container {
+      margin: 2rem 7rem;
+    }
+  }
+  @media (max-width:490px) {
+    .beneficios-container {
+      margin: 2rem 4rem;
+    }
+  }
+  @media (max-width:400px) {
+    .beneficios-container {
+      margin: 2rem 2rem;
+    }
+  }
+  @media (max-width:300px) {
+    .beneficios-container {
+      margin: 2rem 0;
+    }
+  }

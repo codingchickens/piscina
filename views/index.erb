@@ -80,60 +80,61 @@
 
 
 </div>
-  <div class="flex justify-center my-4 space-x-5">
-    <p class="text-xl">Cursos de Natación para Niños y Adultos, contáctese con nuestro Centro de Natación.</p>
-    <a class="call-to-action" href="#">Valores y Horarios</a>
+  <div class="md:flex justify-between p-4 my-4 space-x-5 items-center bg-teal-100">
+    <p class="text-xl">Cursos de natación para niños y adultos, contáctese con nuestro Centro de Natación.</p>
+    <a class="call-to-action" href="/precios">Valores y Horarios</a>
   </div>
 
-  <div>
+  <div class="index mb-6">
     <div><h1>Servicios</h1></div>
-    <div class="flex">
-      <div>
+    <div class="md:flex">
+      <div class="flex-1 md:mr-12">
         <div><img src="/images/index1_cursos.jpg", alt="Cursos"></div>
         <h2>Cursos de Natación</h2>
         <p>Clases personalizadas, cada alumno trabaja en su correspondiente nivel.</p>
       </div>
-      <div>
+      <div class="flex-1 md:mx-10">
         <div><img src="/images/index2_hidrogimnasia.jpg", alt="Hidrogimnasia"></div>
         <h2>Hidrogimnasia</h2>
         <p>Hidrogimnasia es una técnica de gimnasia considerada aeróbica por el elevado consumo de oxígeno que precisa.</p>
       </div>
-      <div>
+      <div class="flex-1 md:ml-12">
         <div><img src="/images/index3_masajes.jpg", alt="Masajes Ceragem"></div>
         <h2>Masajes Ceragem</h2>
         <p>Camillas termo-masajeadoras</p>
       </div>
     </div>
   </div>
+</div>
 
-  <div>
+<div class="nosotros">
+  <div class="layout">
     <div><h1>Nosotros</h1></div>
-    <div class="flex">
-      <div>
+    <div class="md:flex">
+      <div class="flex-nosotros1 md:mr-20">
         <h2>Centro de Natación</h2>
         <p>El Centro de Natación Patricia Thompson imparte clases de natación tanto básico como avanzado a niños y adultos por más de 25 años. Cuenta con una piscina temperada especialmente diseñada por profesionales del ramo, para la enseñanza y práctica de la natación, rehabilitación en agua, hidrogimnasia y actividades acuáticas recreativas. La piscina cuenta con una amplia rampa interior con pendiente suave que parte con una profundidad de 0.30 mts. hasta llegar a una profundidad de 1.25 mts. dando así plena seguridad al adulto o niño que tenga temor al agua. El Centro de Natación Patricia Thompson está equipado con cómodos e higiénicos camarines en un ambiente calefaccionado.</p>
       </div>
-      <div>
-        <div><h2>Contáctenos</h2></div>
-        <div>
-        <ul>
-          <li>22-20-44-096</li>
-          <li>Av. Francisco Bilbao 1136 - Providencia</li>
-          <li>centrodenatacion@gmail.com</li>
-          <li>centrodenatacion.cl</li>
-        </div>
-      </div>
+      <div class="flex-nosotros2 mt-6 md:m-0"><img class="md:rounded-xl" src="/images/index4_nosotros.jpg", alt="Historia de la Piscina"></div>
     </div>
   </div>
+</div>
 
-  <div>
-    <div><h1>Contacto</h1></div>
-    <p>Si desea ponerse en contacto con nosotros sólo envíenos un mail
-    O llámenos al 22 20-44-096 para reservar una hora con nosotros.</p>
-    <p>FORMULARIO</p>
+<div class="index-contacto">
+  <div class="layout">
+    <div class="flex flex-col items-center">
+      <div><h1>Contacto</h1></div>
+      <div class="flex-none text-xl"><p>Si desea ponerse en contacto con nosotros sólo envíenos un mail, <br>
+      o llámenos al +56 2 2204 4096 para reservar una hora con nosotros</p></div>
+      <div class="flex-none mt-6 index-form"><%= erb :contacto_form %></div>
+    </div>
   </div>
+</div>
 
-  <div>
-    <p>MAPA INCRUSTADO</p>
-  </div>
+<div class="layout index">
+  <div><h1>Cómo llegar</h1></div>
+  <div class="flex justify-center">
+  <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3329.3793597281065!2d-70.61991778509194!3d-33.439421704331785!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9662cf7f6c014139%3A0x3fb5720a7612e58d!2sSwimming%20Center%20Patricia%20Thompson!5e0!3m2!1sen!2scl!4v1666623341176!5m2!1sen!2scl" width="900" height="675" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+</div>
+<hr>
 </div>

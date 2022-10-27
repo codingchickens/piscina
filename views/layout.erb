@@ -1,14 +1,25 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <meta charset="utf-8">
-    <title>Centro Natación | Patricia Thompson</title>
+    <meta name="viewport" content="width=device-width" charset="utf-8">
+    <title>Centro de Natación Patricia Thompson | <%= @title %></title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/tw-elements/dist/css/index.min.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@1,900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link href="/stylesheets/output.css" rel="stylesheet">
     <link href="/stylesheets/layout.css" rel="stylesheet">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" />
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" />
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/tw-elements/dist/css/index.min.css" />
-  </head>
+    <link href="/stylesheets/index.css" rel="stylesheet">
+    <link href="/stylesheets/servicios_natacion.css" rel="stylesheet">
+    <link href="/stylesheets/servicios_hidrogimnasia.css" rel="stylesheet">
+    <link href="/stylesheets/cursos.css" rel="stylesheet">
+    <link href="/stylesheets/beneficios.css" rel="stylesheet">
+    <link href="/stylesheets/horarios.css" rel="stylesheet">
+    <link href="/stylesheets/precios.css" rel="stylesheet">
+    <link href="/stylesheets/contacto.css" rel="stylesheet">
+    <link href="/stylesheets/footer.css" rel="stylesheet">
+    </head>
   <body>
     <div>
       <%= erb :header %>
@@ -17,6 +28,7 @@
       </div>
       <%= erb :footer %>
       <script src="https://cdn.jsdelivr.net/npm/tw-elements/dist/js/index.min.js"></script>
+      <script src="/js/hamburger.js"></script>
     </div>
   </body>
 </html>
