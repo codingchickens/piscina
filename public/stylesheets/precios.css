@@ -2,8 +2,41 @@
     align-self: auto;
 }
 
+.pricestable-rows {
+  display: flex;
+}
+
+.pricestable-headercells {
+  background-color: lightblue;
+  border: 1px solid rgba(0,0,0,.199);
+  padding: 8px 20px;
+  font-weight: bold;
+  text-align: center;
+  width: 200px;
+}
+
+.pricestable-rowcells {
+  border: 1px solid rgba(0,0,0,.199);
+  flex: 1 1 0%;
+  padding: 8px 20px;
+  display: flex;
+  align-items: center;
+}
+
+.pricestable-singlerows {
+  border: 1px solid rgba(0,0,0,.199);
+  display: flex;
+  flex: 1 1 0%;
+  justify-content: center;
+  padding: 8px 20px;
+}
+
 @media (max-width:768px) {
   .precios-container {
     margin-top: 2rem;
+  }
+  .pricestable {
+    overflow-x: scroll;
+    justify-content: flex-start;
   }
 }

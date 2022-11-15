@@ -631,6 +631,11 @@ h2 {
   margin-bottom: 0.5rem;
 }
 
+.my-3 {
+  margin-top: 0.75rem;
+  margin-bottom: 0.75rem;
+}
+
 .mx-2 {
   margin-left: 0.5rem;
   margin-right: 0.5rem;
@@ -808,12 +813,6 @@ h2 {
   margin-left: calc(1.25rem * calc(1 - var(--tw-space-x-reverse)));
 }
 
-.space-x-4 > :not([hidden]) ~ :not([hidden]) {
-  --tw-space-x-reverse: 0;
-  margin-right: calc(1rem * var(--tw-space-x-reverse));
-  margin-left: calc(1rem * calc(1 - var(--tw-space-x-reverse)));
-}
-
 .overflow-hidden {
   overflow: hidden;
 }
@@ -914,19 +913,19 @@ h2 {
   padding-bottom: 0.5rem;
 }
 
+.px-10 {
+  padding-left: 2.5rem;
+  padding-right: 2.5rem;
+}
+
 .px-8 {
   padding-left: 2rem;
   padding-right: 2rem;
 }
 
-.px-3 {
-  padding-left: 0.75rem;
-  padding-right: 0.75rem;
-}
-
-.px-10 {
-  padding-left: 2.5rem;
-  padding-right: 2.5rem;
+.py-4 {
+  padding-top: 1rem;
+  padding-bottom: 1rem;
 }
 
 .pl-0 {
@@ -935,10 +934,6 @@ h2 {
 
 .text-center {
   text-align: center;
-}
-
-.text-right {
-  text-align: right;
 }
 
 .text-2xl {
@@ -1138,10 +1133,6 @@ h2 {
     margin-left: 3rem;
   }
 
-  .md\:mr-20 {
-    margin-right: 5rem;
-  }
-
   .md\:block {
     display: block;
   }
@@ -1176,10 +1167,6 @@ h2 {
     margin-left: calc(1rem * calc(1 - var(--tw-space-x-reverse)));
   }
 
-  .md\:rounded-xl {
-    border-radius: 0.75rem;
-  }
-
   .md\:text-left {
     text-align: left;
   }
@@ -1193,18 +1180,9 @@ h2 {
     font-size: 1rem;
     line-height: 1.5rem;
   }
-
-  .md\:text-xl {
-    font-size: 1.25rem;
-    line-height: 1.75rem;
-  }
 }
 
 @media (min-width: 1024px) {
-  .lg\:m-0 {
-    margin: 0px;
-  }
-
   .lg\:mr-8 {
     margin-right: 2rem;
   }

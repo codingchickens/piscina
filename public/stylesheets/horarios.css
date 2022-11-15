@@ -1,7 +1,47 @@
-.flex-horarios1 {
-    flex: 2.5;
+.timetable {
+  border: 1px;
+  border-color: black;
+}
+
+.timetable-hours {
+  border: 2px;
+  border-color: grey;
+}
+
+.timetable-cells {
+  width: 120px;
+  padding: 8px 20px;
+  text-align: center;
+}
+
+.timetable-headercells {
+  background-color: lightblue;
+  font-weight: bold;
+}
+
+.timetable-hourcells {
+  border: 1px solid rgba(0,0,0,.199);
+  font-weight: 500;
+}
+
+.timetable-emptycells {
+  border: 1px solid rgba(0,0,0,.199);
+  color: white;
+}
+
+.timetable-occupiedcells {
+  background-color: #047afa;
+  border: 1px solid rgba(0,0,0,.199);
+  color: white;
+}
+
+@media (max-width:940px) {
+  .timetable {
+    overflow-x: scroll;
+    justify-content: flex-start;
+  }
+  .horario-title {
+    margin-bottom: 0.5rem;
   }
 
-  .flex-horarios2 {
-    flex: 1;
-  }
+}
