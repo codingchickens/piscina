@@ -9,19 +9,26 @@
 }
 
 .timetable-cells {
-  width: 120px;
-  padding: 8px 20px;
+  line-height: 1.10;
+  padding: 8px 16px;
+  min-height: 50px;
   text-align: center;
+  width: 120px;
 }
 
 .timetable-headercells {
   background-color: lightblue;
   font-weight: bold;
+  min-height: 50px;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  width: 120px;
 }
 
 .timetable-hourcells {
   border: 1px solid rgba(0,0,0,.199);
   font-weight: 500;
+  padding: 15px;
 }
 
 .timetable-emptycells {
@@ -35,6 +42,15 @@
   color: white;
 }
 
+.t-45minutescells {
+  min-height: 75px;
+}
+
+.t-singlelinecells {
+  padding-top: 15px;
+  padding-bottom: 15px;
+}
+
 @media (max-width:940px) {
   .timetable {
     overflow-x: scroll;
@@ -44,4 +60,14 @@
     margin-bottom: 0.5rem;
   }
 
+  .timetable-cells {
+    font-size: smaller;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    min-height: 40px;
+  }
+
+  .t-45minutescells {
+    min-height: 60px;
+  }
 }
