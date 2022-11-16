@@ -42,13 +42,26 @@
   color: white;
 }
 
+.t-halfhourcell {
+  font-size: xx-small;
+  min-height: 25px;
+  padding-top: 0px;
+  padding-bottom: 0px;
+}
+
 .t-45minutescells {
-  min-height: 75px;
+  min-height: 37.5px;
+  padding-top: 0px;
+  padding-bottom: 0px;
 }
 
 .t-singlelinecells {
   padding-top: 15px;
   padding-bottom: 15px;
+}
+
+.t-saturdaycells {
+  min-height: 75px;
 }
 
 @media (max-width:940px) {
@@ -68,6 +81,19 @@
   }
 
   .t-45minutescells {
+    min-height: 30px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+  }
+
+  .t-halfhourcell {
+    font-size: xx-small;
+    min-height: 20px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+  }
+
+  .t-saturdaycells {
     min-height: 60px;
   }
 }
