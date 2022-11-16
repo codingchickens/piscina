@@ -1,15 +1,13 @@
 <div class="layout">
   <div class="mt-12">
-    <div><img class="rounded-xl" src="/images/cursos1.jpg", alt="Cursos Piscina"></div>
-    <div class="text-xl text-center mt-8"><p>¡Papás y mamás! No esperen al verano para enseñar a nadar a sus hijos. Evite aglomeraciones y listas de espera y traigalos ahora, para que sus hijos ya estén nadando este verano</p></div>
-    <div class="mt-12 mb-8"><h3 class="text-3xl">Cursos de natación</h2></div>
+    <div class="mt-12 mb-8"><h3 class="text-3xl font-semibold text-center">Cursos de natación</h2></div>
     <div class="md:flex items-stretch md:space-x-4">
       <div class="flex items-stretch mt-4"><img class="rounded-xl" src="/images/cursos2.jpg", alt="Cursos Piscina"></div>
       <div class="flex items-stretch mt-4"><img class="rounded-xl" src="/images/cursos3.jpg", alt="Cursos Piscina"></div>
     </div>
     <div class="sm:h-36 md:h-32 text-lg mt-6 text-center"><div><%= erb :cursos_tabpanel %></div></div>        
     <hr>
-    <div class="mt-12 mb-8"><h3 class="text-3xl">Cursos de natación para niños</h2></div>
+    <div class="mt-12 mb-8"><h3 class="text-3xl font-semibold text-center">Cursos de natación para niños</h2></div>
     <div class="md:flex justify-between items-center flip-container">
       <div class="flip-card">
         <div class="flip-card-inner">
@@ -17,7 +15,7 @@
             <p>Curso básico y avanzado</p>
           </div>
           <div class="flip-card-back">
-            <div class="m-1"><p>Las clases son personalizadas con un máximo de 8 niños por profesor. Los chicos estan dentro de la piscina vivenciando el medio acuático durante toda la clase. Avanzan de etapas por sus propios avances o logros, no por los del grupo; en una misma clase pueden avanzar de nivel.</p></div>
+            <div class="m-1 md:text-base"><p>Las clases son personalizadas con un máximo de 8 niños por profesor. Los chicos estan dentro de la piscina vivenciando el medio acuático durante toda la clase. Avanzan de etapas por sus propios avances o logros, no por los del grupo; en una misma clase pueden avanzar de nivel.</p></div>
           </div>
         </div>
       </div>
@@ -28,7 +26,7 @@
             <p>Clases particulares</p>
           </div>
           <div class="flip-card-back">
-            <div class="m-1"><p>Se considera como clases particulares a grupos reducidos de personas por profesor.<br> Los grupos pueden ser conformados por un máximo de hasta tres personas, y pueden integrarlos niños, jóvenes y adultos, o combinados (ej. padres con hijos).<br>Mínimo de cuatro (4) clases por grupo.</p></div>
+            <div class="m-1 md:text-base"><p>Se considera como clases particulares a grupos reducidos de personas por profesor.<br> Los grupos pueden ser conformados por un máximo de hasta tres personas, y pueden integrarlos niños, jóvenes y adultos, o combinados (ej. padres con hijos).<br>Mínimo de cuatro (4) clases por grupo.</p></div>
           </div>
         </div>
       </div>
@@ -38,10 +36,9 @@
     <div class="md:flex md:space-x-4 items-center">
     <div class="">
       <div><h3 class="text-2xl">Clases particulares</h3></div>
-      <div class="mt-4"><p>Se considera como clases particulares a clases individuales o para grupos reducidos de personas por profesor. Los grupos pueden ser conformados hasta por un máximo de tres personas, y pueden conformarse por niños, jóvenes y adultos o combinados (por ej. padres con hijos).
+      <div class="mt-4"><p>Se considera como clases particulares a clases individuales o para grupos reducidos de personas por profesor. Los grupos pueden ser conformados hasta por un máximo de tres personas, y pueden conformarse por niños, jóvenes y adultos o combinados (por ejemplo, padres con hijos).
       La cantidad mínima de clases por grupo o individuales son 4.
-      El período máximo de tiempo para realizarlas es de un mes.
-      La duración de la clase es de 60 min. para mayores de 12 años y de 45 min. para menores de 12 años.</p></div>
+      La duración de la clase es de 60 minutos para mayores de 12 años y de 45 minutos para menores de 12 años.</p></div>
     </div>
     <div class="flex items-stretch precios-container min-w-[50%]"><img class="rounded-xl" src="/images/precios2.jpg", alt="Miembros Piscina"></div>
   </div>
@@ -49,21 +46,21 @@
   <div class="mt-12 mb-8"><h3 class="text-3xl">Términos y condiciones</h2></div>
   <ul class="list-disc list-inside leading-loose py-2 text-slate-500">
     <li>Los cursos tienen fecha de inicio y término. Los periodos no pueden ser extendidos.</li>
-    <li>Los cursos deben estar cancelados previo a iniciar el periodo.</li>
-    <li>En caso de enfermedad, el alumno podrá congelar la fecha de término de su periodo, mediante envío de certificado médico como respaldo. En estos casos, se tendrá un mes para retomar las clases.</li>
+    <li class="pt-3">Los cursos deben estar cancelados previo a iniciar el periodo.</li>
+    <li class="pt-3">En caso de enfermedad, el alumno podrá congelar la fecha de término de su periodo, mediante envío de certificado médico como respaldo. En estos casos, se tendrá un mes para retomar las clases.</li>
   </ul>
   <div class="mt-12 mb-8"><h3 class="text-3xl">Suspensiones</h2></div>
   <ul class="list-disc list-inside leading-loose py-2 text-slate-500">
     <li>La suspensión de la clase debe ser como mínimo el día anterior, de manera de dar aviso al profesor y dar la opción de asistir a otra persona en ese cupo. </li>
-    <li>Los periodos de 4 clases tendrán la oportunidad de realizar un cambio de horario, ya sea su día o su horario, siempre que sea antes de su fecha de término.  Los periodos de 8 clases podrán realizar dos cambios de horario, cumpliendo la misma condición anterior.</li>
-    <li>El cambio de clase debe ser notificado y autorizado en secretaría, donde se le ofrece un nuevo horario en que haya cupo. El centro no se responsabiliza por la imposibilidad del alumno de asistir en el nuevo cupo ofrecido para recuperar su clase.</li>  
+    <li class="pt-3">Los periodos de 4 clases tendrán la oportunidad de realizar un cambio de horario, ya sea su día o su horario, siempre que sea antes de su fecha de término.  Los periodos de 8 clases podrán realizar dos cambios de horario, cumpliendo la misma condición anterior.</li>
+    <li class="pt-3">El cambio de clase debe ser notificado y autorizado en secretaría, donde se le ofrece un nuevo horario en que haya cupo. El centro no se responsabiliza por la imposibilidad del alumno de asistir en el nuevo cupo ofrecido para recuperar su clase.</li>  
   </ul>
   <div class="mt-12 mb-8"><h3 class="text-3xl">Reglamento</h2></div>
   <ul class="list-disc list-inside leading-loose py-2 text-slate-500">
     <li>Es obligatorio el uso de gorro de natación y lentes para hacer uso de la piscina. Además, el alumno debe contar con toalla y chalas para circular por el recinto piscina y camarines.</li>
-    <li>El uso de los casilleros debe ser siempre con candado, el cual debe ser traído por el alumno.</li>
-    <li>Está prohibido consumir comida o bebidas al interior del recinto piscina.</li>
-    <li>El recinto cuenta con un estacionamiento de bicicletas a disposición de los alumnos que lo requieran.</li>
+    <li class="pt-3">El uso de los casilleros debe ser siempre con candado, el cual debe ser traído por el alumno.</li>
+    <li class="pt-3">Está prohibido consumir comida o bebidas al interior del recinto piscina.</li>
+    <li class="pt-3">El recinto cuenta con un estacionamiento de bicicletas a disposición de los alumnos que lo requieran.</li>
   </ul>
   <hr>
 </div>
