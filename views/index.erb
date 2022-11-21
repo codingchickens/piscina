@@ -1,107 +1,18 @@
+<%= erb :carousel%>
+
 <div class="layout">
-
-<div id="carouselExampleCaptions" class="carousel slide relative" data-bs-ride="carousel">
-<div class="carousel-indicators absolute right-0 bottom-0 left-0 flex justify-center p-0 mb-4">
-  <button
-    type="button"
-    data-bs-target="#carouselExampleCaptions"
-    data-bs-slide-to="0"
-    class="active"
-    aria-current="true"
-    aria-label="Slide 1"
-  ></button>
-  <button
-    type="button"
-    data-bs-target="#carouselExampleCaptions"
-    data-bs-slide-to="1"
-    aria-label="Slide 2"
-  ></button>
-  <button
-    type="button"
-    data-bs-target="#carouselExampleCaptions"
-    data-bs-slide-to="2"
-    aria-label="Slide 3"
-  ></button>
-</div>
-<div class="carousel-inner relative w-full overflow-hidden">
-  <div class="carousel-item active relative float-left w-full">
-    <img
-      src="/images/hero1_instalaciones.jpg"
-      class="block w-full"
-      alt="..."
-    />
-    <div class="carousel-caption mb-5 hidden md:block absolute text-center">
-      <h5 class="text-2xl mb-8">Nuestras Instalaciones</h5>
-      <a class="carousel-link  mb-6" href="/">VER INFO</a>
-    </div>
-  </div>
-  <div class="carousel-item relative float-left w-full">
-    <img
-      src="/images/hero2_hidrogimnasia.jpg"
-      class="block w-full"
-      alt="..."
-    />
-    <div class="carousel-caption mb-5 hidden md:block absolute text-center">
-      <h5 class="text-2xl mb-8">Hidrogimnasia</h5>
-      <a class="carousel-link  mb-6" href="/servicios_hidrogimnasia">VER INFO</a>
-    </div>
-  </div>
-  <div class="carousel-item relative float-left w-full">
-    <img
-      src="/images/hero3_natacion.jpg"
-      class="block w-full"
-      alt="..."
-    />
-    <div class="carousel-caption mb-5 hidden md:block absolute text-center">
-      <h5 class="text-2xl mb-8">Natación para Niños</h5>
-      <a class="carousel-link  mb-6" href="/precios">VER INFO</a>
-    </div>
-  </div>
-</div>
-
-<button
-  class="carousel-control-prev absolute top-0 bottom-0 flex items-center justify-center p-0 text-center border-0 hover:outline-none hover:no-underline focus:outline-none focus:no-underline left-0"
-  type="button"
-  data-bs-target="#carouselExampleCaptions"
-  data-bs-slide="prev"
->
-  <span class="carousel-control-prev-icon inline-block bg-no-repeat" aria-hidden="true"></span>
-  <span class="visually-hidden">Previous</span>
-</button>
-<button
-  class="carousel-control-next absolute top-0 bottom-0 flex items-center justify-center p-0 text-center border-0 hover:outline-none hover:no-underline focus:outline-none focus:no-underline right-0"
-  type="button"
-  data-bs-target="#carouselExampleCaptions"
-  data-bs-slide="next"
->
-  <span class="carousel-control-next-icon inline-block bg-no-repeat" aria-hidden="true"></span>
-  <span class="visually-hidden">Next</span>
-</button>
-
-
-</div>
-  <div class="flex flex-col md:flex-row justify-center md:justify-between items-center text-center p-4 my-4 space-x-5 bg-teal-100">
-    <p class="lg:text-xl">Cursos de natación para niños y adultos, contáctese con nuestro Centro.</p>
-    <a class="call-to-action my-12 md:m-0" href="/precios">Valores y Horarios</a>
-  </div>
-
   <div class="index mb-6">
-    <div><h1>Servicios</h1></div>
-    <div class="md:flex">
-      <div class="flex-1 md:mr-12">
+    <div class="text-3xl pt-12 mb-8 text-center font-semibold"><p>Servicios</p></div>
+    <div class="md:flex mb-4 md:space-x-12">
+      <div class="flex-1 py-4">
         <div><img src="/images/index1_cursos.jpg", alt="Cursos"></div>
-        <h2>Cursos de Natación</h2>
-        <p>Clases personalizadas, cada alumno trabaja en su correspondiente nivel.</p>
+        <div class="text-2xl mt-4"><a href="/servicios_natacion">Cursos de Natación</a></div>
+        <div class="mt-3"><p>Cursos básicos, avanzados, clases personalizadas o nado libre, cada alumno trabaja en su correspondiente nivel. Clases para adultos y niños. </p></div>
       </div>
-      <div class="flex-1 md:mx-10">
+      <div class="flex-1 py-4">
         <div><img src="/images/index2_hidrogimnasia.jpg", alt="Hidrogimnasia"></div>
-        <h2>Hidrogimnasia</h2>
-        <p>Hidrogimnasia es una técnica de gimnasia considerada aeróbica por el elevado consumo de oxígeno que precisa.</p>
-      </div>
-      <div class="flex-1 md:ml-12">
-        <div><img src="/images/index3_masajes.jpg", alt="Masajes Ceragem"></div>
-        <h2>Masajes Ceragem</h2>
-        <p>Camillas termo-masajeadoras</p>
+        <div class="text-2xl mt-4"><a href="/servicios_hidrogimnasia">Hidrogimnasia</a></div>
+        <div class="mt-3"><p>Hidrogimnasia es una técnica de gimnasia considerada aeróbica por el elevado consumo de oxígeno que precisa.</p></div>
       </div>
     </div>
   </div>
@@ -109,11 +20,11 @@
 
 <div class="nosotros">
   <div class="layout">
-    <div><h1>Nosotros</h1></div>
+    <div class="text-3xl mb-8 text-center font-semibold"><p>Nosotros</p></div>
     <div class="lg:flex lg:space-x-4">
       <div class="flex items-stretch">
         <div>
-          <h2>Centro de Natación</h2>
+          <div class="text-2xl mb-4"><p>El Centro</p></div>
           <p>El Centro de Natación Patricia Thompson imparte clases de natación tanto básico como avanzado a niños y adultos por más de 25 años. Cuenta con una piscina temperada especialmente diseñada por profesionales del ramo, para la enseñanza y práctica de la natación, rehabilitación en agua, hidrogimnasia y actividades acuáticas recreativas. La piscina cuenta con una amplia rampa interior con pendiente suave que parte con una profundidad de 0.30 mts. hasta llegar a una profundidad de 1.25 mts. dando así plena seguridad al adulto o niño que tenga temor al agua. El Centro de Natación Patricia Thompson está equipado con cómodos e higiénicos camarines en un ambiente calefaccionado.</p>
         </div>
       </div>
@@ -122,19 +33,8 @@
   </div>
 </div>
 
-<div class="index-contacto">
-  <div class="layout">
-    <div class="flex flex-col items-center">
-      <div><h1>Contacto</h1></div>
-      <div class="flex-none flex text-center sm:text-xl px-10 sm:p-0 "><p>Si desea ponerse en contacto con nosotros sólo envíenos un mail, <br>
-      o llámenos al +56 2 2204 4096 para reservar una hora con nosotros</p></div>
-      <div class="flex-none mt-6 index-form"><%= erb :contacto_form %></div>
-    </div>
-  </div>
-</div>
-
 <div class="layout index">
-  <div><h1>Cómo llegar</h1></div>
+  <div class="text-3xl pt-12 mb-8 text-center font-semibold"><p>Cómo llegar</p></div>
   <div class="flex justify-center">
   <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3329.3793597281065!2d-70.61991778509194!3d-33.439421704331785!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9662cf7f6c014139%3A0x3fb5720a7612e58d!2sSwimming%20Center%20Patricia%20Thompson!5e0!3m2!1sen!2scl!4v1666623341176!5m2!1sen!2scl" width="900" height="675" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
 </div>

@@ -5,6 +5,11 @@
 .icon {
   height: 24px;
   width: 24px;
+  fill: white;
+}
+
+.icon-color {
+  fill: white;
 }
 
 .logo {
