@@ -96,4 +96,9 @@
   .t-saturdaycells {
     min-height: 60px;
   }
+
+  .t-singlelinecells {
+  padding-top: 11px;
+  padding-bottom: 11px;
+}
 }
