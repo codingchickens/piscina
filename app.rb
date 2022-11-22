@@ -45,6 +45,7 @@ get '/contacto' do
   erb :contacto
 end
 
-post '/check' do
-  
+get '/terminos' do
+  @title = "Términos y condiciones"
+  erb :terminos
 end

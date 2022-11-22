@@ -12,7 +12,7 @@
   padding: 8px 20px;
   font-weight: bold;
   text-align: center;
-  width: 200px;
+  width: 190px;
 }
 
 .pricestable-rowcells {
@@ -29,6 +29,17 @@
   flex: 1 1 0%;
   justify-content: center;
   padding: 8px 20px;
+}
+
+.pricestable-ampmcolumn {
+  padding-top: 0;
+}
+
+.pricestable-personcolumn {
+  min-width: 190px;
+  padding-top: 2px;
+  padding-left: 10px;
+  padding-right: 10px;
 }
 
 @media (max-width:768px) {
