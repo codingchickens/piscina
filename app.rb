@@ -49,3 +49,7 @@ get '/terminos' do
   @title = "Términos y condiciones"
   erb :terminos
 end
+
+not_found do
+  "La direccion seleccionada no ha sido encontrada."
+end
